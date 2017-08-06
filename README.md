@@ -1,2 +1,3 @@
-# Jekyll-Lessons-Project
-A Git Hub repo of Jekyll Lessons
+# Jekyll Lessons Project
+
+A GitHub repo of Jekyll lessons that emphasize both the GFM and Kramdown engines

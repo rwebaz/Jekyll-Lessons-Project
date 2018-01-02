@@ -42,4 +42,6 @@ More to come ...
 
 ***
 
-**Source**: [The Set of Source Links For This Project](http://hyperlink-to-source-links.pdf){:target="_self"}
+- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Visit Cloud Cannon"}{:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title="Click to Visit Cloud Cannon"}{:target="_blank"}.
+
+- [How To Convert an Html Site To Jekyll](http://jekyllrb.com/tutorials/convert-site-to-jekyll/){:title="Click to Visit Jekyll RB"}{:target="_blank"}. Published by © 2017 [Jekyllrb.com](http://jekyllrb.com){:title="Click to Visit Jekyll RB"}{:target="_blank"}.

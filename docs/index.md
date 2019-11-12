@@ -1,47 +1,40 @@
 ---
 title: Home Page
 layout: default
+excerpt: Place the introducing line of text ie.) the 'lead' here ...
+description: Lay out a more in-depth descriptive paragraph of the page here ...
+repo: Jekyll Lessons Project
+ver_date: 11-10-19
 navigation_weight: 1
+categories: page
 ---
-# Issue: Lesson Template
+{{ page.excerpt }}
 
-Place the introducing line of text ie.) the 'tagline' here ...
+{{ page.title }} | {{ page.repo }} Dtd {{ page.ver_date }}
 
-State the issue of the problem in the form of a question
+{{ page.description }}
 
 ## Table O Contents
+
+![Flammarion Logo Badge](assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg){:width="120px"}
 
 - TOC
 {:toc}
 
-## Solution
+**Note**. The above **Live** rendition of the **Flammarion Logo Badge** is an `( .svg )` image file set to the dimensions of 120.00 px X 120.00 px.
 
-Expound the solution ...
+## IRAC
 
-## The Code
+{% include irac-issue-rule-analysis-conclusion.md %}
 
-Highlight the code ...
+{% include raw-code-anchors.md %}
 
-## Summation
+{% include sources-and-uses.md %}
 
-Delineate the steps ...
+### External Sources
 
-## Live
+- [Jekyll Source Links](../Jekyll/Jekyll-Source-Links.htm){:title='Click to Visit the Jekyll Source Links page of the Jekyll Lessons Project at Concept Library'}{:target='_self'}
 
-Render the code live
+Published by © 2000 - 2020 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
 
-## Raw Code
-
-More to come ...
-
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
-
-***
-
-- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Visit Cloud Cannon"}{:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title="Click to Visit Cloud Cannon"}{:target="_blank"}.
-
-- [How To Convert an Html Site To Jekyll](http://jekyllrb.com/tutorials/convert-site-to-jekyll/){:title="Click to Visit Jekyll RB"}{:target="_blank"}. Published by © 2017 [Jekyllrb.com](http://jekyllrb.com){:title="Click to Visit Jekyll RB"}{:target="_blank"}.
+{% include patreon-link.md %}

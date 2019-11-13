@@ -14,7 +14,9 @@ theme: "jekyll-theme-cayman"
 # There is also one new repository as of 11-11-19
 # repository: https://www.github.com/exvivospace/exvivospace.github.io
 #
+name: ""
 lang: "en-US"
+encoding: UTF-8
 title: "Jekyll Lessons Project"
 tagline: "A GitHub repo of Lessons and Articles that emphasize the Jekyll development engine."
 description: "The Jekyll Lessons Project, or JLP is a GitHub repo of Lessons and Articles emphasizing the Jekyll development engine."
@@ -36,11 +38,13 @@ exclude: ['README.md']
 baseurl: "/Jekyll-Lessons-Project"
 #
 # The 'url' is the parental web address of your designated project, e.g. /https://mminail.github.io
-# Note. Has the element `url` been deprecated in favor of `source`?
-# old.
 url: "https://rwebaz.github.io"
-# new.
-source: "https://rwebaz.github.io"
+#
+# The `source` tells the Jekyll engine where to locate the opening `index` file.
+# In this case, the `source` of the `index.md` is the `docs` folder of the repo.
+# Because this GitHub pages website is being served remotely from the `docs` folder, 
+# a simple slash confirms the location of the `index` file.
+# source: "/"
 #
 # GitHub Pages Mandatory Defaults
 # 
@@ -84,7 +88,7 @@ kramdown:
     input: "GFM"
     syntax_highlighter: rouge
     math_engine: "mathjax"
-    hard_wrap: false
+    hard_wrap: "false"
 #
 # Set the code for `Goodle Analytics`
 # Warning. Property `google_analytics` is not allowed

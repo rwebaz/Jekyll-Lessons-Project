@@ -1,7 +1,12 @@
 ---
 title: File Setup
 layout: default
-navigation_weight: 9
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+description: Issue, Rule, Analysis, Conclusion = IRAC
+repo: Jekyl Lessons Project
+ver_date: 11-12-19
+navigation_weight: 8
+categories: template
 ---
 # File Setup
 
@@ -566,7 +571,7 @@ Here is the code required to establish an effective default layout file.
 
       {{ content }}
 
-      {% include icon-github.html %}
+      {% include icon-github-footer.htm %}
 
       <!-- <hr class='green-groove' />
        \{\% include footer.htm \%\} -->

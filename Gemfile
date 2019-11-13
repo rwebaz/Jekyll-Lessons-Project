@@ -226,7 +226,7 @@ gem 'jekyll-sitemap', '1.2.0'
 #
 gem 'jekyll-swiss', '0.4.0'
 #
-# gem 'jekyll-theme-cayman', '0.1.1'
+gem 'jekyll-theme-cayman', '0.1.1'
 #
 gem 'jekyll-titles-from-headings', '0.5.1'
 #

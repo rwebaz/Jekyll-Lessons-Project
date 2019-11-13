@@ -269,6 +269,7 @@ DEPENDENCIES
   jekyll-seo-tag (= 2.5.0)
   jekyll-sitemap (= 1.2.0)
   jekyll-swiss (= 0.4.0)
+  jekyll-theme-cayman (= 0.1.1)
   jekyll-titles-from-headings (= 0.5.1)
   jemoji (= 0.10.2)
   kramdown (= 1.17.0)

@@ -1,9 +1,22 @@
 ---
 title: About Jekyll
 layout: default
-navigation_weight: 9
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Jekyll-Lessons-Project
+ver_date: 11-20-19
+navigation_weight: 8
+categories: page
 ---
-# Base Jekyll Theme
+{% include toc.md %}
+
+## First Subtitle
+
+> **Hint**. {{ page.hint }}
+
+More to come ...
+
+## Base Jekyll Theme
 
 This is the base Jekyll theme Cayman.
 
@@ -65,6 +78,16 @@ If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 [jekyll-gh]:   https://github.com/jekyll/jekyll{:target="_blank"}
 [jekyll-talk]: https://talk.jekyllrb.com/{:target="_blank"}
 
+## Last Subtitle
+
+More to come ...
+
 ***
 
-**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}
+**Note**. The above synopsis was derived from an article written by Cloud Cannon [[1](#CLOUDCANNON){:.red}].
+
+1. {:#CLOUDCANNON}[Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Review Instructional Jekyll Tips n Vids by Cloud Cannon"}{:target="_blank"}
+
+***
+
+{% include patreon-link.md %}

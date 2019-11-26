@@ -1,29 +1,22 @@
 ---
 title: File Setup
 layout: default
-excerpt: Place the introducing line of text ie.) the 'tagline' here ...
-description: Issue, Rule, Analysis, Conclusion = IRAC
-repo: Jekyl Lessons Project
-ver_date: 11-12-19
+excerpt: The root directory of the repo houses the docs folder from which all of the GitHub Pages magic is rendered ...
+hint: When fully configured, a Jekyll site will consist of files and folders in the root directory of the repo and another set of files and subdirectories in the docs folder of the repo.
+repo: Jekyl-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
-categories: template
+categories: page
 ---
-# File Setup
+{% include toc.md %}
 
-When fully configured, a Jekyll site will consist of a total of (8) files and folders in the root directory of the repo and another (10) files and subdirectories in the docs folder of the repo.
+## Root Directory
 
-![MMI™ Flammarion Logo Badge](../assets/ico/ms-icon-70x70.png)
+> **Hint**. {{ page.hint }}
 
-## Table O Contents
+More to come ...
 
-- TOC
-{:toc}
-
-## The Repo Root Directory
-
-The root directory of the repo houses the docs folder from which all **Git Hub Pages** magic is rendered, specifically through the pages subdirectory of the docs folder.
-
-## Setting the Remote Jekyll Server
+### Setting the Remote Jekyll Server
 
 The remote Jekyll server can be set after creating a new repository up at Git Hub.
 
@@ -620,14 +613,16 @@ More to come ...
 {% endraw %}
 ```
 
-## Raw Code
+## Last Subtitle
 
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
+More to come ...
 
 ***
 
-**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:target="_blank"}.
+**Note**. The above synopsis was derived from an article written by Cloud Cannon [[1](#CLOUDCANNON){:.red}].
+
+1. {:#CLOUDCANNON}[Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Review Instructional Jekyll Tips n Vids by Cloud Cannon"}{:target="_blank"}
+
+***
+
+{% include patreon-link.md %}

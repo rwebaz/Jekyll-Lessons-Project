@@ -1,16 +1,20 @@
 ---
 title: Source Links
 layout: default
-navigation_weight: 9
+excerpt: The first place to look for tips n vids about the static Jekyll server is Cloud Cannon ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Jekyll-Lessons-Project
+ver_date: 11-26-19
+navigation_weight: 8
+categories: page
 ---
-# Source Links: Jekyll Lessons Project
+{% include toc.md %}
 
-Place the introducing line of text ie.) the 'tagline' here ...
+## First Subtitle
 
-## Table O Contents
+> **Hint**. {{ page.hint }}
 
-- TOC
-{:toc}
+More to come ...
 
 ## Jekyll Server
 
@@ -20,7 +24,7 @@ In turn, each of the following **Live Link** is also followed by **The Code** ( 
 
 ### Instructional Jekyll Tips n Vids by Cloud Cannon
 
-The first place to look for tips n vids about the static Jekyll server.
+More to come ...
 
 #### Live Link: Instructional Jekyll Tips n Vids by Cloud Cannon
 
@@ -54,32 +58,18 @@ More to come ... Short statement of critique
 {% endraw %}
 ```
 
-## Raw Code
+## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
-
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
-
-**Note**. Please support the authors and publishers who aggregate the **Source Links** for our projects.
+More to come ...
 
 ***
 
-**Ping-back**: [Jekyll Lessons Project: Source Links](https://rwebaz.github.io/Jekyll-Lessons-Project/pages/Source-Links.html){:target="_blank"}. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:target="_blank"}.
+**Note**. The above synopsis was derived from articles written by Cloud Cannon [[1](#CLOUDCANNON){:.red}] and Jekyll RB [[2](#JEKYLLRB){:.red}].
 
-- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:target="_blank"}.
+1. {:#CLOUDCANNON}[Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Review Instructional Jekyll Tips n Vids by Cloud Cannon"}{:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title="Click to Review Cloud Cannnon dot com"}{:target="_blank"}.
 
-- [How To Convert an Html Site To Jekyll](http://jekyllrb.com/tutorials/convert-site-to-jekyll/). Published by © 2017 [Jekyllrb.com](http://jekyllrb.com){:target="_blank"}.
+1. {:#JEKYLLRB}[How To Convert an Html Site To Jekyll](http://jekyllrb.com/tutorials/convert-site-to-jekyll/){:title="Click to How To Convert an Html Site To Jekyll by Jekyll RB"}{:target="_blank"}. Published by © 2017 [Jekyllrb.com](http://jekyllrb.com){:title="Click to Review Jekyll RB dot com"}{:target="_blank"}.
 
-- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:target="_blank"}.
+***
 
-- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:target="_blank"}.
-
-- [How To Convert an Html Site To Jekyll](https://jekyllrb.com/tutorials/convert-site-to-jekyll/). Published by © 2017 [Jekyllrb.com](https://jekyllrb.com){:target="_blank"}.
-
-- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Visit Cloud Cannon"}{:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title="Click to Visit Cloud Cannon"}{:target="_blank"}.
-
-- [How To Convert an Html Site To Jekyll](http://jekyllrb.com/tutorials/convert-site-to-jekyll/){:title="Click to Visit Jekyll RB"}{:target="_blank"}. Published by © 2017 [Jekyllrb.com](http://jekyllrb.com){:title="Click to Visit Jekyll RB"}{:target="_blank"}.
+{% include patreon-link.md %}

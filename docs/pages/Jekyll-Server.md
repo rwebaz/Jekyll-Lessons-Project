@@ -1,18 +1,22 @@
 ---
 title: Jekyll Server
 layout: default
-navigation_weight: 9
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Jekyll-Lessons-Project
+ver_date: 11-26-19
+navigation_weight: 8
+categories: page
 ---
-# Jekyll Server
+{% include toc.md %}
 
-How to engage the **Jekyll Server** locally.
+## How to engage the Jekyll Server locally
 
-## Table O Contents
+> **Hint**. {{ page.hint }}
 
-- TOC
-{:toc}
+More to come ...
 
-## How To Start The Local Jekyll Server In Mac Os Sierra
+### How To Start The Local Jekyll Server In Mac Os Sierra
 
 From the **Integrated Terminal** in **Visual Studio Code**...
 
@@ -71,7 +75,8 @@ Learn how to make a **Binary Archive** from source.
 [Ruby Macports 2nd Instance](https://mminail.github.io/Homebrew/Ruby-Macports-2nd-Instance.htm){:target="_blank"}
 
 ## More Stuff
-    
+
+```html
 <li>Go to your locally configured repo in the Finder</li>
 
 <li>Right click over the folder name</li>
@@ -80,7 +85,7 @@ Learn how to make a **Binary Archive** from source.
 
 <li>Open a 'new Terminal at folder'</li>
 
-Once a Terminal window is open with the directory pointing to the folder of your repo ...</span>
+<span>Once a Terminal window is open with the directory pointing to the folder of your repo ...</span>
 
 <ol type="1" start="5">
 
@@ -94,7 +99,7 @@ You may then subsequently simply scroll up the Terminal history to accept the co
 
 <li>And, type this address in the URL location bar of your browser window ... <kbd>http://localhost:4000/</kbd></li>
 
-<br /> 
+<br />
 
 <li>Hit the <kbd>Enter</kbd> key to navigate to the local rendering of your repo</li>
 
@@ -103,6 +108,7 @@ You may then subsequently simply scroll up the Terminal history to accept the co
 Jekyll is best served as a Ruby gem.
 
 [Click To Download Jekyll as a Ruby gem](https://rubygems.org/gems/jekyll){:target="_blank"}
+```
 
 ## Raw Code Finish
 
@@ -112,14 +118,16 @@ Jekyll is best served as a Ruby gem.
 {% endraw %}
 ```
 
-## Raw Code
+## Last Subtitle
 
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
+More to come ...
 
 ***
 
-**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}
+**Note**. The above synopsis was derived from an article written by Cloud Cannon [[1](#CLOUDCANNON){:.red}].
+
+1. {:#CLOUDCANNON}[Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Review Instructional Jekyll Tips n Vids by Cloud Cannon"}{:target="_blank"}
+
+***
+
+{% include patreon-link.md %}

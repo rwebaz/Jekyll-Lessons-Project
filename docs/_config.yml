@@ -20,6 +20,7 @@ encoding: UTF-8
 title: "Jekyll Lessons Project"
 tagline: "A GitHub repo of Lessons and Articles that emphasize the Jekyll development engine."
 description: "The Jekyll Lessons Project, or JLP is a GitHub repo of Lessons and Articles emphasizing the Jekyll development engine."
+#
 twitter:
     username: "mminail"
 author:

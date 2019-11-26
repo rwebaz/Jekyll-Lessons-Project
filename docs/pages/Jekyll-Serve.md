@@ -1,13 +1,18 @@
 ---
 title: Jekyll Serve
 layout: default
+excerpt: GitHub publishes a current list of dependency versions for GitHub Pages, Ruby, and Jekyll ...
+hint: Jekyll server statements may be entered from the Integrated Terminal view of your target repo's open docs folder in Visual Studio Code.
+repo: Jekyll-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
+categories: page
 ---
-# Jekyll Serve
+{% include toc.md %}
 
-**Jekyll** server statements may be entered from the *Integrated Terminal* view of your target repo's open `docs` folder in **Visual Studio Code**. 
+## Integrated Terminal
 
-{% include toc-flammarion.md %}
+> **Hint**. {{ page.hint }}
 
 ## Visual Studio Code
 
@@ -43,8 +48,6 @@ Returns,
 jekyll 3.4.3
 {% endraw %}
 ```
-
-**Note Three**. **Git Hub** publishes a current list of dependency versions for the *Git Hub Pages* dependency, the *Ruby* dependency, the *Jekyll* dependency, and others.
 
 Before including any dependency in the `Bundle install` or `Bundle update` task for your repo ...
 
@@ -184,32 +187,16 @@ jekyll serve --watch --baseurl "" --port 4001 -o
 {% endraw %}
 ```
 
-## New Subtitle
+## Last Subtitle
 
 More to come ...
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+***
 
-## Last Subtitle
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-Place the introducing line of text ie.) the 'tagline' here ...
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+***
 
-{% include sources-and-uses.md %}
-
-### External Sources
-
-- The [Project Source Links](https://mminail.github.io/Jekyll/Source-Jekyll-Links.htm){:title="Click to Visit the Source Links page of the Jekyll Lessons Project at GitHub pages"}{:target="_blank"} page of the Jekyll Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
-
-
-
-
+{% include patreon-link.md %}
